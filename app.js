@@ -12,7 +12,6 @@ app.post('/bfhl', (req, res) => {
     console.log(req.body);
   let numb = []
   let alpha = []
-    // Prepare the response JSON
     data.forEach(item => {
         if (!isNaN(item)) {
           numb.push(String(item));
@@ -22,9 +21,9 @@ app.post('/bfhl', (req, res) => {
       });
     const response = {
       is_sucess: 'true',
-      user_id:'justin_joseph_13012002',
-      college_email:'jj3550@srmist.edu.in',
-      roll_number:'RA2011003010339',
+      user_id:'ritik_raj_19022003',
+      college_email:'rr4673@srmist.edu.in',
+      roll_number:'RA2011003010334',
       numbers:numb,
       alphabets:alpha
     };
